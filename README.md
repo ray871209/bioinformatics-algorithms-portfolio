@@ -1,6 +1,6 @@
 # Bioinformatics Algorithms — Portfolio Edition
 
-A curated, **independently rewritten** Python collection inspired by algorithms studied in bioinformatics coursework. This folder is intended to be extractable into a **new, clean public repository**, separate from the original private coursework archive.
+A curated, **independently rewritten** Python collection inspired by algorithms studied in bioinformatics coursework. This is a standalone public repository of independently rewritten, educational implementations. Historical coursework is maintained separately in a private archive.
 
 ## What this demonstrates
 
@@ -28,6 +28,6 @@ These commands are documented usage instructions; check [verification status](do
 
 This repository does not demonstrate a production aligner, a reference-grade genome assembler, or a validated clinical bioinformatics pipeline. K-mer indexing is exact matching only; graph reconstruction is intentionally restricted to non-branching paths. Data in the examples are short, synthetic DNA sequences.
 
-## Public-release note
+## Publication and provenance
 
-**Do not turn the parent private repository Public.** This directory can be copied into a **new clean repository** after final inspection; assessment PDFs, instructor text, identifiable outputs, serialized objects and unreviewed third-party datasets must not be carried across.
+This repository contains only curated, newly rewritten example implementations and synthetic demonstration inputs. It does not include graded submissions, instructor-supplied coursework, original datasets, or the Git history of the private source archive. See [provenance](docs/provenance.md) and [verification status](docs/verification.md).
